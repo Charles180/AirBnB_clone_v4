@@ -25,7 +25,7 @@ def teardown_db(exeption):
     """
     storage.close()
 
-@app.router('/4-hbnb/')
+@app.route('/4-hbnb/')
 def hbnb_filters(the_id=None):
     """
     handler of the requests to custom the templates with states, cities and amenities
